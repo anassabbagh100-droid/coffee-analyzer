@@ -1,0 +1,79 @@
+{
+  "arabica": {
+    "general": {
+      "caffeine_percent": "0.8 - 1.4",
+      "chlorogenic_acids_cga_percent": "5.5 - 8.0",
+      "sugars_sucrose_percent": "6.0 - 9.0",
+      "lipids_percent": "15.0 - 18.0",
+      "proteins_percent": "10.0 - 13.0",
+      "moisture_percent": "10.0 - 12.0",
+      "minerals_ash_percent": "3.0 - 5.0",
+      "trigonelline_percent": "0.7 - 1.0"
+    },
+    "ethiopia_southwest": {
+      "trigonelline_g_per_100g": "0.80 - 1.08",
+      "chlorogenic_acids_g_per_100g": "2.80 - 5.42",
+      "caffeine_g_per_100g": "0.85 - 1.73"
+    }
+  },
+  "robusta": {
+    "general": {
+      "caffeine_percent": "1.7 - 4.0",
+      "chlorogenic_acids_cga_percent": "7.0 - 10.0",
+      "sugars_sucrose_percent": "3.0 - 7.0",
+      "lipids_percent": "10.0 - 11.5",
+      "proteins_percent": "11.0 - 14.0",
+      "moisture_percent": "10.0 - 12.0",
+      "minerals_ash_percent": "4.0 - 5.0",
+      "trigonelline_percent": "0.3 - 0.7"
+    },
+    "indonesia_rinjani": {
+      "caffeine_percent_avg": "2.09",
+      "ph_lower_than_arabica": true,
+      "total_acidity_higher_than_arabica": "0.23 - 0.25"
+    },
+    "indonesia_west_java_volatile_compounds": {
+      "aromatic_hydrocarbons": "present",
+      "alcohols": "present",
+      "monoterpenes": "present",
+      "pyrazines": "present",
+      "sesquiterpenes": "present",
+      "carboxylic_acids": "present",
+      "terpenes": "present",
+      "discriminators_by_origin": {
+        "benzaldehyde": "varies_by_origin",
+        "isovaleric_acid": "varies_by_origin",
+        "toluene": "varies_by_origin",
+        "diisobutyl_succinate": "varies_by_origin",
+        "1_heptene": "varies_by_origin",
+        "4_dodecene": "varies_by_origin",
+        "caffeine": "varies_by_origin",
+        "acetic_acid": "varies_by_origin",
+        "methyl_benzoate": "varies_by_origin"
+      }
+    }
+  },
+  "discriminators_arabica_robusta": {
+    "common_discriminators": [
+      "caffeine",
+      "trigonelline",
+      "3-O-caffeoylquinic acid",
+      "4-O-caffeoylquinic acid",
+      "3-O-feruloylquinic acid",
+      "5-O-feruloylquinic acid",
+      "3,4-O-dicaffeoylquinic acid",
+      "3,5-O-dicaffeoylquinic acid",
+      "4,5-O-dicaffeoylquinic acid"
+    ],
+    "non_discriminators": [
+      "pH",
+      "soluble solids",
+      "5-O-caffeoylquinic acid",
+      "total chlorogenic acids",
+      "total caffeoylquinic acids",
+      "total feruloylquinic acids",
+      "total dicaffeoylquinic acids"
+    ]
+  }
+}
+
